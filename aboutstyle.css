@@ -1,0 +1,77 @@
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 300%;
+}
+
+body{
+    background-color: crimson;
+}
+
+nav {
+    float: left;
+    background-color: burlywood;
+    padding: 5px;
+    height: 100%;
+}
+li a {
+    text-decoration: none;
+    background-color: white;
+    border-radius: 10px;
+    margin: 25px;
+    display: block;
+    text-align: center;
+    padding: 25px;
+}
+
+    li a:hover {
+        transform: scale(1.5);
+    }
+
+#Education {
+    float: right;
+    background-color: grey;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border: 5px solid white;
+    display: block;
+    width: 1260px;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
+
+    #Education:hover {
+        background-color: aqua;
+        color: black;
+    }
+
+#img1 {
+    display: inline;
+    float: left;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: 20px;
+    height: 300px;
+    width: 300px;
+}
+
+#img2 {
+    display: inline-block;
+    float: left;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: 30px;
+    height: 300px;
+    width: 300px;
+}
+
+#img3 {
+    display: inline-block;
+    float: left;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: 5px;
+    height: 300px;
+    width: 300px;
+}
